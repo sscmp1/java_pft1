@@ -23,7 +23,7 @@ public class TestM1 {
         }
 
         @Test
-        public void testM111 () {
+        public void testM1Step1 () {
             wd.get("https://www.billing.ru/");
         }
 
