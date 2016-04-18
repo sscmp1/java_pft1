@@ -24,11 +24,7 @@ public class TestM1 {
 
         @Test
         public void testM111 () {
-            wd.get("srv2-sbms-web01:10074/ps/sbms/shell.html?shell_no_start_window=1&shell_login=vclir&shell_password=1111");
-            wd.findElement(By.linkText("Клиенты")).click();
-            wd.findElement(By.linkText("Поиск / выбор клиента")).click();
-            wd.findElement(By.linkText("Карточка клиента")).click();
-            wd.findElement(By.linkText("Фин. карточка клиента")).click();
+            wd.get("https://www.billing.ru/");
         }
 
         @AfterMethod
